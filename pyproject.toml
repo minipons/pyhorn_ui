@@ -11,7 +11,9 @@ license = { text = "MIT" }
 authors = [{ name = "Guillaume de Boyer-Montegut" }]
 requires-python = ">=3.10"
 dependencies = [
-    "pyhorn>=0.1.0",
+    "pyhorn @ git+https://github.com/minipons/pyhorn.git@main",
+    "pyhorn-api @ git+https://github.com/minipons/pyhorn_api.git@main",
+    "pyhorn-exp @ git+https://github.com/minipons/pyhorn_exp.git@main",
     "fastapi>=0.100.0",
     "uvicorn[standard]>=0.22.0",
     "pyyaml>=6.0.0",
